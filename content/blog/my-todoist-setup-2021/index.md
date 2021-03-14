@@ -72,4 +72,4 @@ Using this setup allows me to have the following benefits:
 
 Depending on Todoist new features this Setup can even become better.
 
-This is it. I really hope you will be able to use something from this post. bi
+This is it. I really hope you will be able to use something from this post.
