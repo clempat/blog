@@ -1,0 +1,13 @@
+.page__header {
+  padding: var(--spacing-6) var(--spacing-10);
+  border-bottom: 1px solid #dbdbdb;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+
+  h1 {
+    font-size: 1.125rem;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 0;
+  }
+  margin-bottom: 32px;
+}

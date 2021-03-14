@@ -1,0 +1,92 @@
+{
+  "main": {
+    "id": "ec1d4e0e2d599eb6",
+    "type": "split",
+    "children": [
+      {
+        "id": "83b80522b7ce5bcd",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "my-todoist-setup-2021/index.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5327bd94c331e8a4",
+    "type": "split",
+    "children": [
+      {
+        "id": "9e0f04c863c355aa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "78f4e180517a6f47",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c0d7dc56627b8c56",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "c8010c3791cef76d",
+    "type": "split",
+    "children": [
+      {
+        "id": "89228d7bbdd8b206",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fc58b371f23f4f7f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "my-todoist-setup-2021/index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "my-todoist-setup-2021/index.md"
+  ]
+}

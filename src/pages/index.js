@@ -1,9 +1,12 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
+import Bio from "../components/Bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
+
+import "./index.scss"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -26,10 +29,11 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
-      <Bio />
+      <h1>All Posts</h1>
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
+          const featuredImage = getImage(post.frontmatter.featuredImage)
 
           return (
             <li key={post.fields.slug}>
@@ -46,6 +50,11 @@ const BlogIndex = ({ data, location }) => {
                   </h2>
                   <small>{post.frontmatter.date}</small>
                 </header>
+                <GatsbyImage
+                  image={featuredImage}
+                  alt={title}
+                  imgStyle={{ borderRadius: "16px" }}
+                />
                 <section>
                   <p
                     dangerouslySetInnerHTML={{
@@ -82,6 +91,11 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
+          featuredImage {
+            childImageSharp {
+              gatsbyImageData
+            }
+          }
         }
       }
     }
