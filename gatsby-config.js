@@ -56,6 +56,12 @@ module.exports = {
               rel: "nofollow",
             },
           },
+          {
+            resolve: `gatsby-plugin-plausible`,
+            options: {
+              domain: `clement.patout.dev`,
+            },
+          },
         ],
       },
     },
