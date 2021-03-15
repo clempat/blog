@@ -9,7 +9,7 @@ module.exports = {
       summary: `who loves create and share anything useful.`,
     },
     description: `Sharing thoughts and research concerning programming, productivity, fatherhood or management.`,
-    siteUrl: `https://clement.patout.berlin`,
+    siteUrl: `https://clement.patout.dev`,
     social: {
       twitter: `clement17`,
     },
@@ -38,7 +38,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 800,
+              maxWidth: 1200,
             },
           },
           {
