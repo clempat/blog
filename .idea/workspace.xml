@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -12,9 +15,9 @@
   <component name="ChangeListManager">
     <list default="true" id="432a878c-641b-4e4a-bcac-9c015e2e373a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/BlogPost/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/BlogPost/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Bio/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Bio/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +91,8 @@
       <updated>1615666517989</updated>
       <workItem from="1615666519112" duration="235000" />
       <workItem from="1615666770304" duration="6058000" />
-      <workItem from="1615847997790" duration="607000" />
+      <workItem from="1615847997790" duration="832000" />
+      <workItem from="1615975657143" duration="657000" />
     </task>
     <servers />
   </component>
