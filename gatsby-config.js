@@ -60,6 +60,7 @@ module.exports = {
             resolve: `gatsby-plugin-plausible`,
             options: {
               domain: `clement.patout.dev`,
+              customDomain: `stats.patout.dev`
             },
           },
         ],

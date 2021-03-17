@@ -14,10 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="432a878c-641b-4e4a-bcac-9c015e2e373a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Bio/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Bio/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,8 +89,16 @@
       <workItem from="1615666519112" duration="235000" />
       <workItem from="1615666770304" duration="6058000" />
       <workItem from="1615847997790" duration="832000" />
-      <workItem from="1615975657143" duration="657000" />
+      <workItem from="1615975657143" duration="1445000" />
     </task>
+    <task id="LOCAL-00001" summary="fix: fix some styling about the Avatar and header">
+      <created>1615976401678</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615976401679</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,5 +115,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix: fix some styling about the Avatar and header" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: fix some styling about the Avatar and header" />
   </component>
 </project>
