@@ -14,10 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="432a878c-641b-4e4a-bcac-9c015e2e373a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/content/blog/kids-needs-your-focus/index.mdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +23,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -64,7 +67,17 @@
       <recent name="$PROJECT_DIR$/src/images" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.serve">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="develop" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -75,8 +88,20 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.serve" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.develop" />
       </list>
     </recent_temporary>
@@ -92,7 +117,8 @@
       <workItem from="1615666519112" duration="235000" />
       <workItem from="1615666770304" duration="6058000" />
       <workItem from="1615847997790" duration="832000" />
-      <workItem from="1615975657143" duration="3692000" />
+      <workItem from="1615975657143" duration="3904000" />
+      <workItem from="1615986197092" duration="1546000" />
     </task>
     <task id="LOCAL-00001" summary="fix: fix some styling about the Avatar and header">
       <created>1615976401678</created>
@@ -108,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615984955562</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: add sitemap to blog">
+      <created>1615986132896</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615986132896</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +162,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix: fix some styling about the Avatar and header" />
     <MESSAGE value="feat: make plausible using the same domain" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: make plausible using the same domain" />
+    <MESSAGE value="feat: add sitemap to blog" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add sitemap to blog" />
   </component>
 </project>
