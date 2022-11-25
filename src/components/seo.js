@@ -71,7 +71,9 @@ const SEO = ({ description, lang, meta, title }) => {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <link rel="me" href="https://mastodon.top/@clempat" />
+    </Helmet>
   )
 }
 
